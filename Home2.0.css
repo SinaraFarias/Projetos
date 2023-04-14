@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    background-image: url(./2.png);
+    width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+   
+ 
+}
+.ab{
+    background-color: #5e17ebbc;
+    padding: 5px 0;
+}
+footer{
+    background-color: #5e17eb;
+    padding: 5px 0;
+
+}
+
+.logo{
+    width: 100%;
+    background-image: url(./2.png);
+    
+    
+
+}
+
+/*.logo a{
+    color: black;
+    background-color: rgb(247, 247, 104);
+    font-weight: bold;
+    border-radius: 0.50rem;
+    text-decoration: none;
+    position: relative;
+    top: -60px; left: 700px;
+    padding: 1rem 4rem;
+    border: 1px solid white; 
+    transition: .5s ease-in-out;
+
+    
+
+}
+
+a:hover{
+    background-color: white;
+
+
+}*/
+
+.img{
+    width: 130px;
+    
+}
+
+.btn form{
+    width: 380px;
+    left: 450px;
+    max-width: 100%;
+    position: relative;
+    
+}
+
+.btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 130px 14px 15px;
+    border: 2px solid rgb(247, 247, 104);
+    border-radius: 30px;
+    outline: none;
+    font-weight: bold;
+}
+
+.btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(247, 247, 104);
+    color:black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #7d7b7b;
+    right: 4px;
+    top: 4px;
+    font-weight: bold;
+    
+}
+.logo a{
+    background-color: rgb(247, 247, 104);
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    position: relative;
+    top: -60px; left: 700px;
+}
+
+.a:hover{
+    transform: scale(1.2);
+}
